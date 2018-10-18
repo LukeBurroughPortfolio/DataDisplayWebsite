@@ -1,0 +1,5 @@
+http://www.cs.umd.edu/hcil/trs/2001-06/2001-06.html
+http://www.win.tue.nl/~vanwijk/stm.pdf
+https://stackoverflow.com/questions/9880635/implementing-a-squarified-treemap-in-javascript
+
+https://en.wikipedia.org/wiki/List_of_countries_by_electricity_consumption

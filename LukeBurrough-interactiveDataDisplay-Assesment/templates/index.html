@@ -1,0 +1,144 @@
+{% extends "Base.html" %}
+
+{% block title %}Data Display{% endblock %}
+
+{% block content %}
+
+
+
+<!-- this is the style of everything and it should be moved to its own file before hand in -->
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+    svg .Large {
+      font-family: : italic 50% sans-serif; 
+    }
+
+    html, body {
+      align-items: center;
+      background-color: #cccccc;
+      display: flex;
+      height: 100%;
+      justify-content: center;
+    }
+    svg .outline {
+      outline: 6px
+    }
+    svg {
+      outline: 1px dashed #00f;
+    }
+
+  	.st0{fill:#B60F00;}
+  	.st1{fill:#1200A1;}
+  	.st2{fill:#FFAF53;}
+  	.st3{fill:#FFFFFF;}
+  	.st4{fill:#8F002C;}
+  	.st5{fill:#FFD90A;}
+  	.st6{fill:#E83400;}
+  	.st7{fill:#00AA3E;}
+  	.st8{fill:#002DCA;}
+  	.st9{fill:#00AA4C;}
+  	.st10{fill:#116800;}
+  	.st11{fill:#D30041;}
+  	.st12{fill:#000896;}
+  	.st13{fill:#00960C;}
+  	.st14{fill:#750027;}
+  	.st15{fill:#02000C;}
+  	.st16{fill:#55CCFF;}
+  	.st17{fill:#C0004B;}
+  	.st18{fill:#000266;}
+  	.st19{fill:#FF436D;}
+  	.st20{fill:#2E0CFF;}
+  	.st21{fill:#1900B7;}
+  	.st22{fill:#cccccc;}
+  	.st23{font-family:'OpenSans';}
+  	.st24{font-size:60px;}
+    .st25{fill:#cccccc}
+  </style>
+
+<!-- this handles the objects you can see on the web page -->
+  <svg width="100%" height="100%" viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+    <rect x="0.1" y="0.4" class="st0" id=S1 width="198.6" height="198.6"/>
+    <text x="1%" y="3%" fill="white" class=Large id=T1 ></text>
+    <text x="1%" y="5%" fill="white" class=Large id=T2 ></text>
+    <rect x="0.1" y="199.1" class="st1" width="198.7" height="198.7"/>
+    <rect x="0.4" y="397.8" class="st2" width="198.6" height="186.2"/>
+    <rect x="1" y="584.8" class="st3" width="198" height="182.3"/>
+    <rect x="199.2" y="0.4" class="st4" width="177.1" height="177.1"/>
+    <rect x="540.9" y="-0.1" class="st5" width="169" height="177.1"/>
+    <rect x="709.8" y="-0.2" class="st6" width="166.7" height="177.2"/>
+    <rect x="376.3" y="-0.1" class="st7" width="163.8" height="177.1"/>
+    <rect x="875.5" y="0.8" class="st8" width="159.3" height="176.2"/>
+    <rect x="1034.6" y="0.7" class="st3" width="152.7" height="176.3"/>
+    <rect x="1186.9" y="0.7" class="st8" width="179.1" height="176.3"/>
+    <rect x="198.4" y="177.4" class="st9" width="137.1" height="137.1"/>
+    <rect x="198.7" y="314.8" class="st10" width="136.3" height="134.9"/>
+    <rect x="199" y="449.7" class="st11" width="136" height="129.7"/>
+    <rect x="198.1" y="578.9" class="st5" width="136.9" height="188.1"/>
+    <rect x="335.4" y="177.4" class="st12" width="125.2" height="125.2"/>
+    <rect x="461.2" y="177" class="st13" width="123" height="126"/>
+    <rect x="584.5" y="177.1" class="st0" width="120.1" height="125.9"/>
+    <rect x="704.7" y="177.2" class="st6" width="118.6" height="125.8"/>
+    <rect x="937.7" y="177.4" class="st3" width="117.8" height="125.6"/>
+    <rect x="823.1" y="177.4" class="st14" width="115.6" height="125.6"/>
+    <rect x="1056.9" y="177.6" class="st15" width="109.7" height="126.4"/>
+    <rect x="1166.1" y="176.5" class="st16" width="199.9" height="126.5"/>
+    <rect x="335.2" y="302.4" class="st17" width="104.5" height="104.5"/>
+    <rect x="335" y="407" class="st18" width="104.1" height="104.1"/>
+    <rect x="335.3" y="511.3" class="st5" width="104.7" height="99.3"/>
+    <rect x="335.5" y="610.6" class="st0" width="103.5" height="157.4"/>
+    <rect x="438.9" y="303" class="st5" width="94.9" height="94.9"/>
+    <rect x="533.4" y="303.8" class="st16" width="94.1" height="94.1"/>
+    <rect x="627.4" y="302.7" class="st1" width="91.2" height="95.3"/>
+    <rect x="717.4" y="302.6" class="st10" width="88.7" height="95.4"/>
+    <rect x="891.6" y="303.6" class="st5" width="86.6" height="94.4"/>
+    <rect x="806.3" y="303.2" class="st16" width="85" height="94.8"/>
+    <rect x="979.2" y="303.9" class="st10" width="84.1" height="94.1"/>
+    <rect x="1063.8" y="303.9" class="st18" width="83.2" height="94.1"/>
+    <rect x="1146.6" y="303" class="st13" width="82.3" height="95"/>
+    <rect x="1229.3" y="303.2" class="st6" width="136.7" height="94.8"/>
+    <rect x="438.6" y="398.1" class="st19" width="81.4" height="80.7"/>
+    <rect x="519.7" y="397.9" class="st20" width="74.3" height="80.1"/>
+    <rect x="593.9" y="397.6" class="st21" width="74.1" height="80.4"/>
+    <rect x="667.4" y="397.9" class="st5" width="74.6" height="81.1"/>
+    <rect x="741.2" y="397.4" class="st1" width="75.8" height="81.6"/>
+    <rect x="885.1" y="398" class="st6" width="69.9" height="80.7"/>
+    <rect x="816.8" y="397.8" class="st10" width="68.5" height="80.8"/>
+    <rect x="954.8" y="398" width="66.9" height="81"/>
+    <rect x="1021.7" y="397.6" class="st20" width="66.3" height="81.4"/>
+    <rect x="1088" y="398.1" class="st0" width="66" height="81.9"/>
+    <rect x="1154.2" y="398" class="st5" width="65.4" height="83"/>
+    <rect x="1220.1" y="397.5" class="st7" width="65.1" height="81.5"/>
+    <rect x="1285.7" y="397.3" width="80.3" height="80.7"/>
+    <rect x="439.5" y="478.5" class="st25" width="926" height="288"/>
+    <rect x="460" y="494" class="st22" width="884" height="233"/>
+    <text transform="matrix(1 0 0 1 460 539.5996)"><tspan x="0" y="0" class="st23 st24">Power Usage  </tspan><tspan x="0" y="72" class="st23 st24">by Countries  </tspan><tspan x="0" y="144" class="st23 st24">Around the World.</tspan></text>
+
+  </svg>
+
+<!-- this handles interactions with the objects (javascript) -->
+  <script>
+  var Data = [
+    "CHINA","KW-6,310,000,000,000",
+  ];
+
+  var t1 = document.getElementById('T1');
+  var t2 = document.getElementById('T2');
+
+  document.getElementById('S1').addEventListener('mouseover', function VChina(){
+    t1.textContent=Data[0]
+    t2.textContent=Data[1]
+    t1.setAttribute('visibility','visable');
+    t2.setAttribute('visibility','visable');
+  });
+
+  document.getElementById('S1').addEventListener('mouseout', function NVChina(){
+    t1.setAttribute('visibility','hidden');
+    t2.setAttribute('visibility','hidden');
+
+
+  });
+
+  </script>
+
+
+{% endblock %}

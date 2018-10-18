@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    {% block head %}
+    <meta charset="utf-8">
+    <title>{% block title %}{% endblock %}</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    {% endblock %}
+  </head>
+
+  <body>
+
+    {% block content %}{% endblock %}
+
+  </body>
+
+</html>
