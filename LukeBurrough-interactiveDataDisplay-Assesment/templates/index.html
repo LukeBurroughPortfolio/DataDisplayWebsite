@@ -9,23 +9,29 @@
 <!-- this is the style of everything and it should be moved to its own file before hand in -->
   <style>
     @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-    svg .Large {
-      font-family: : italic 50% sans-serif; 
-    }
 
     html, body {
       align-items: center;
-      background-color: #cccccc;
+      background-color: #FFFFFF;
       display: flex;
       height: 100%;
       justify-content: center;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
     }
-    svg .outline {
-      outline: 6px
+    rect {
+      outline: 1px solid black;
     }
     svg {
-      outline: 1px dashed #00f;
+      outline: 5px solid black;
     }
+
+    .medium{font-size: 15px;}
+    .small{font-size: 12px;}
+    .tiny{font-size: 10px;}
+    .smol{font-size: 8px;}
+    .pigmi{font-size: 7px;}
+    .micro{font-size: 6px;}
 
   	.st0{fill:#B60F00;}
   	.st1{fill:#1200A1;}
@@ -49,68 +55,213 @@
   	.st19{fill:#FF436D;}
   	.st20{fill:#2E0CFF;}
   	.st21{fill:#1900B7;}
-  	.st22{fill:#cccccc;}
-  	.st23{font-family:'OpenSans';}
   	.st24{font-size:60px;}
-    .st25{fill:#cccccc}
+    .st25{fill:#FFFFFF}
   </style>
 
 <!-- this handles the objects you can see on the web page -->
   <svg width="100%" height="100%" viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
     <rect x="0.1" y="0.4" class="st0" id=S1 width="198.6" height="198.6"/>
-    <text x="1%" y="3%" fill="white" class=Large id=T1 ></text>
-    <text x="1%" y="5%" fill="white" class=Large id=T2 ></text>
-    <rect x="0.1" y="199.1" class="st1" width="198.7" height="198.7"/>
-    <rect x="0.4" y="397.8" class="st2" width="198.6" height="186.2"/>
-    <rect x="1" y="584.8" class="st3" width="198" height="182.3"/>
-    <rect x="199.2" y="0.4" class="st4" width="177.1" height="177.1"/>
-    <rect x="540.9" y="-0.1" class="st5" width="169" height="177.1"/>
-    <rect x="709.8" y="-0.2" class="st6" width="166.7" height="177.2"/>
-    <rect x="376.3" y="-0.1" class="st7" width="163.8" height="177.1"/>
-    <rect x="875.5" y="0.8" class="st8" width="159.3" height="176.2"/>
-    <rect x="1034.6" y="0.7" class="st3" width="152.7" height="176.3"/>
-    <rect x="1186.9" y="0.7" class="st8" width="179.1" height="176.3"/>
-    <rect x="198.4" y="177.4" class="st9" width="137.1" height="137.1"/>
-    <rect x="198.7" y="314.8" class="st10" width="136.3" height="134.9"/>
-    <rect x="199" y="449.7" class="st11" width="136" height="129.7"/>
-    <rect x="198.1" y="578.9" class="st5" width="136.9" height="188.1"/>
-    <rect x="335.4" y="177.4" class="st12" width="125.2" height="125.2"/>
-    <rect x="461.2" y="177" class="st13" width="123" height="126"/>
-    <rect x="584.5" y="177.1" class="st0" width="120.1" height="125.9"/>
-    <rect x="704.7" y="177.2" class="st6" width="118.6" height="125.8"/>
-    <rect x="937.7" y="177.4" class="st3" width="117.8" height="125.6"/>
-    <rect x="823.1" y="177.4" class="st14" width="115.6" height="125.6"/>
-    <rect x="1056.9" y="177.6" class="st15" width="109.7" height="126.4"/>
-    <rect x="1166.1" y="176.5" class="st16" width="199.9" height="126.5"/>
-    <rect x="335.2" y="302.4" class="st17" width="104.5" height="104.5"/>
-    <rect x="335" y="407" class="st18" width="104.1" height="104.1"/>
-    <rect x="335.3" y="511.3" class="st5" width="104.7" height="99.3"/>
-    <rect x="335.5" y="610.6" class="st0" width="103.5" height="157.4"/>
-    <rect x="438.9" y="303" class="st5" width="94.9" height="94.9"/>
-    <rect x="533.4" y="303.8" class="st16" width="94.1" height="94.1"/>
-    <rect x="627.4" y="302.7" class="st1" width="91.2" height="95.3"/>
-    <rect x="717.4" y="302.6" class="st10" width="88.7" height="95.4"/>
-    <rect x="891.6" y="303.6" class="st5" width="86.6" height="94.4"/>
-    <rect x="806.3" y="303.2" class="st16" width="85" height="94.8"/>
-    <rect x="979.2" y="303.9" class="st10" width="84.1" height="94.1"/>
-    <rect x="1063.8" y="303.9" class="st18" width="83.2" height="94.1"/>
-    <rect x="1146.6" y="303" class="st13" width="82.3" height="95"/>
-    <rect x="1229.3" y="303.2" class="st6" width="136.7" height="94.8"/>
-    <rect x="438.6" y="398.1" class="st19" width="81.4" height="80.7"/>
-    <rect x="519.7" y="397.9" class="st20" width="74.3" height="80.1"/>
-    <rect x="593.9" y="397.6" class="st21" width="74.1" height="80.4"/>
-    <rect x="667.4" y="397.9" class="st5" width="74.6" height="81.1"/>
-    <rect x="741.2" y="397.4" class="st1" width="75.8" height="81.6"/>
-    <rect x="885.1" y="398" class="st6" width="69.9" height="80.7"/>
-    <rect x="816.8" y="397.8" class="st10" width="68.5" height="80.8"/>
-    <rect x="954.8" y="398" width="66.9" height="81"/>
-    <rect x="1021.7" y="397.6" class="st20" width="66.3" height="81.4"/>
-    <rect x="1088" y="398.1" class="st0" width="66" height="81.9"/>
-    <rect x="1154.2" y="398" class="st5" width="65.4" height="83"/>
-    <rect x="1220.1" y="397.5" class="st7" width="65.1" height="81.5"/>
-    <rect x="1285.7" y="397.3" width="80.3" height="80.7"/>
+    <text x="10px" y="20px" fill="white" id=T1 ></text>
+    <text x="10px" y="35px" fill="white" id=T2 ></text>
+
+    <rect x="0.1" y="199.1" class="st1" id=S2 width="198.7" height="198.7"/>
+    <text x="10px" y="220px" fill="white" id=T3 ></text>
+    <text x="10px" y="235px" fill="white" id=T4 ></text>
+
+    <rect x="0.4" y="397.8" class="st2" id=S3 width="198.6" height="186.2"/>
+    <text x="10px" y="420" fill="black"  id=T5 ></text>
+    <text x="10px" y="435" fill="black"  id=T6 ></text>
+
+    <rect x="1" y="584.8" class="st3" id=S4 width="198" height="182.3"/>
+    <text x="10px" y="605" class="medium" fill="white"  id=T7 ></text>
+    <text x="10px" y="620" class="medium" fill="white"  id=T8 ></text>
+
+    <rect x="199.2" y="0.4" class="st4" id=S5 width="177.1" height="177.1"/>
+    <text x="210px" y="20px" fill="white"  id=T9 ></text>
+    <text x="210px" y="35px" fill="white"  id=T10 ></text>
+
+    <rect x="540.9" y="-0.1" class="st5" id=S6 width="169" height="177.1"/>
+    <text x="545px" y="20px" fill="black"  id=T11 ></text>
+    <text x="545px" y="35px" fill="black"  id=T12 ></text>
+
+    <rect x="709.8" y="-0.2" class="st6" id=S7 width="166.7" height="177.2"/>
+    <text x="715px" y="20px" fill="white"  id=T13 ></text>
+    <text x="715px" y="35px" fill="white"  id=T14 ></text>
+
+    <rect x="376.3" y="-0.1" class="st7" id=S8 width="163.8" height="177.1"/>
+    <text x="380px" y="20px" fill="white"  id=T15 ></text>
+    <text x="380px" y="35px" fill="white"  id=T16 ></text>
+
+    <rect x="875.5" y="0.8" class="st8" id=S9 width="159.3" height="176.2"/>
+    <text x="876" y="20px" fill="white"  id=T17 ></text>
+    <text x="876" y="35px" fill="white"  id=T18 ></text>
+
+    <rect x="1034.6" y="0.7" class="st3" id=S10 width="152.7" height="176.3"/>
+    <text x="1038px" y="20px" fill="white" class=medium id=T19 ></text>
+    <text x="1038px" y="35px" fill="white" class=medium id=T20 ></text>
+
+    <rect x="1186.9" y="0.7" class="st8" id=S11 width="179.1" height="176.3"/>
+    <text x="1190px" y="20px" fill="white"  id=T21 ></text>
+    <text x="1190px" y="35px" fill="white"  id=T22 ></text>
+
+    <rect x="198.4" y="177.4" class="st9" id=S12 width="137.1" height="137.1"/>
+    <text x="200px" y="195px" class="small" fill="white"  id=T23 ></text>
+    <text x="200px" y="210px" class="small" fill="white"  id=T24 ></text>
+
+    <rect x="198.7" y="314.8" class="st10" id=S13 width="136.3" height="134.9"/>
+    <text x="200px" y="330px" class="small" fill="white"  id=T25 ></text>
+    <text x="200px" y="345" class="small" fill="white"  id=T26 ></text>
+
+    <rect x="199" y="449.7" class="st11" id=S14 width="136" height="129.7"/>
+    <text x="200px" y="464" class="small" fill="white"  id=T27 ></text>
+    <text x="200px" y="478" class="small" fill="white"  id=T28 ></text>
+
+    <rect x="198.1" y="578.9" class="st5" id=S15 width="136.9" height="188.1"/>
+    <text x="200px" y="600px" class="small" fill="black"  id=T29 ></text>
+    <text x="200px" y="615px" class="small" fill="black"  id=T30 ></text>
+
+    <rect x="335.4" y="177.4" class="st12" id=S16 width="125.2" height="125.2"/>
+    <text x="340px" y="200px" class="small" fill="white"  id=T31 ></text>
+    <text x="340px" y="215px" class="small" fill="white"  id=T32 ></text>
+
+    <rect x="461.2" y="177" class="st13" id=S17 width="123" height="126"/>
+    <text x="465px" y="200px" class="small" fill="white"  id=T33 ></text>
+    <text x="465px" y="215px" class="small" fill="white"  id=T34 ></text>
+
+    <rect x="584.5" y="177.1" class="st0" id=S18 width="120.1" height="125.9"/>
+    <text x="586px" y="200px" class="small" fill="white"  id=T35 ></text>
+    <text x="586px" y="215px" class="small" fill="white"  id=T36 ></text>
+
+    <rect x="704.7" y="177.2" class="st6" id=S19 width="118.6" height="125.8"/>
+    <text x="706" y="200px" class="tiny" fill="white"  id=T37 ></text>
+    <text x="706" y="215px" class="tiny" fill="white"  id=T38 ></text>
+
+    <rect x="937.7" y="177.4" class="st3" id=S20 width="117.8" height="125.6"/>
+    <text x="943px" y="200px" class="tiny" fill="white"  id=T39 ></text>
+    <text x="943px" y="215px" class="tiny" fill="white"  id=T40 ></text>
+
+    <rect x="823.1" y="177.4" class="st14" id=S21 width="115.6" height="125.6"/>
+    <text x="828px" y="200px" class="tiny" fill="white"  id=T41 ></text>
+    <text x="828px" y="215px" class="tiny" fill="white"  id=T42 ></text>
+
+    <rect x="1056.9" y="177.6" class="st15" id=S22 width="109.7" height="126.4"/>
+    <text x="1060px" y="200px" class="tiny" fill="white"  id=T43 ></text>
+    <text x="1060px" y="215px" class="tiny" fill="white"  id=T44 ></text>
+
+    <rect x="1166.1" y="176.5" class="st16" id=S23 width="199.9" height="126.5"/>
+    <text x="1170px" y="200px" class="tiny" fill="white"  id=T45 ></text>
+    <text x="1170px" y="215px" class="tiny" fill="white"  id=T46 ></text>
+
+    <rect x="335.2" y="302.4" class="st17" id=S24 width="104.5" height="104.5"/>
+    <text x="338px" y="314px" class="tiny" fill="white"  id=T47 ></text>
+    <text x="338px" y="327px" class="tiny" fill="white"  id=T48 ></text>
+
+    <rect x="335" y="407" class="st18" id=S25 width="104.1" height="104.1"/>
+    <text x="338px" y="419px" class="tiny" fill="white"  id=T49 ></text>
+    <text x="338px" y="432px" class="tiny" fill="white"  id=T50 ></text>
+
+    <rect x="335.3" y="511.3" class="st5" id=S26 width="104.7" height="99.3"/>
+    <text x="338px" y="525px" class="tiny" fill="black"  id=T51 ></text>
+    <text x="338px" y="535px" class="tiny" fill="black"  id=T52 ></text>
+
+    <rect x="335.5" y="610.6" class="st0" id=S27 width="103.5" height="157.4"/>
+    <text x="338px" y="625px" class="tiny" fill="white"  id=T53 ></text>
+    <text x="338px" y="635px" class="tiny" fill="white"  id=T54 ></text>
+
+    <rect x="438.9" y="303" class="st5" id=S28 width="94.9" height="94.9"/>
+    <text x="442px" y="316px" class="smol" fill="black"  id=T55 ></text>
+    <text x="442px" y="328px" class="smol" fill="black"  id=T56 ></text>
+
+    <rect x="533.4" y="303.8" class="st16" id=S29 width="94.1" height="94.1"/>
+    <text x="536px" y="316px" class="smol" fill="white"  id=T57 ></text>
+    <text x="536px" y="328px" class="smol" fill="white"  id=T58 ></text>
+
+    <rect x="627.4" y="302.7" class="st1" id=S30 width="91.2" height="95.3"/>
+    <text x="630px" y="316px" class="smol" fill="white"  id=T59 ></text>
+    <text x="630px" y="328px" class="smol" fill="white"  id=T60 ></text>
+
+    <rect x="717.4" y="302.6" class="st10" id=S31 width="88.7" height="95.4"/>
+    <text x="722px" y="316px" class="smol" fill="white"  id=T61 ></text>
+    <text x="722px" y="328px" class="smol" fill="white"  id=T62 ></text>
+
+    <rect x="891.6" y="303.6" class="st5" id=S32 width="86.6" height="94.4"/>
+    <text x="896px" y="316px" class="pigmi" fill="black"  id=T63 ></text>
+    <text x="896px" y="328px" class="smol" fill="black"  id=T64 ></text>
+
+    <rect x="806.3" y="303.2" class="st16" id=S33 width="85" height="94.8"/>
+    <text x="810px" y="316px" class="smol" fill="white"  id=T65 ></text>
+    <text x="810px" y="328px" class="smol" fill="white"  id=T66 ></text>
+
+    <rect x="979.2" y="303.9" class="st10" id=S34 width="84.1" height="94.1"/>
+    <text x="982px" y="316px" class="smol" fill="white"  id=T67 ></text>
+    <text x="982px" y="328px" class="smol" fill="white"  id=T68 ></text>
+
+    <rect x="1063.8" y="303.9" class="st18" id=S35 width="83.2" height="94.1"/>
+    <text x="1068px" y="316px" class="smol" fill="white"  id=T69 ></text>
+    <text x="1068px" y="328px" class="smol" fill="white"  id=T70 ></text>
+
+    <rect x="1146.6" y="303" class="st13" id=S36 width="82.3" height="95"/>
+    <text x="1150px" y="316px" class="smol" fill="white"  id=T71 ></text>
+    <text x="1150px" y="328px" class="smol" fill="white"  id=T72 ></text>
+
+    <rect x="1229.3" y="303.2" class="st6" id=S37 width="136.7" height="94.8"/>
+    <text x="1232px" y="316px" class="smol" fill="white"  id=T73 ></text>
+    <text x="1232px" y="328px" class="smol" fill="white"  id=T74 ></text>
+
+    <rect x="438.6" y="398.1" class="st19" id=S38 width="81.4" height="80.7"/>
+    <text x="442px" y="416px" class="smol" fill="white"  id=T75 ></text>
+    <text x="442px" y="428px" class="smol" fill="white"  id=T76 ></text>
+
+    <rect x="519.7" y="397.9" class="st20" id=S39 width="74.3" height="80.1"/>
+    <text x="522px" y="416px" class="pigmi" fill="white"  id=T77 ></text>
+    <text x="522px" y="428px" class="pigmi" fill="white"  id=T78 ></text>
+
+    <rect x="593.9" y="397.6" class="st21" id=S40 width="74.1" height="80.4"/>
+    <text x="597px" y="416px" class="pigmi" fill="white"  id=T79 ></text>
+    <text x="597px" y="428px" class="pigmi" fill="white"  id=T80 ></text>
+
+    <rect x="667.4" y="397.9" class="st5" id=S41 width="74.6" height="81.1"/>
+    <text x="670px" y="416px" class="pigmi" fill="black"  id=T81 ></text>
+    <text x="670px" y="428px" class="pigmi" fill="black"  id=T82 ></text>
+
+    <rect x="741.2" y="397.4" class="st1" id=S42 width="75.8" height="81.6"/>
+    <text x="746px" y="416px" class="pigmi" fill="white"  id=T83 ></text>
+    <text x="746px" y="428px" class="pigmi" fill="white"  id=T84 ></text>
+
+    <rect x="885.1" y="398" class="st6" id=S43 width="69.9" height="80.7"/>
+    <text x="887px" y="416px" class="pigmi" fill="white"  id=T85 ></text>
+    <text x="887px" y="428px" class="pigmi" fill="white"  id=T86 ></text>
+
+    <rect x="816.8" y="397.8" class="st10" id=S44 width="68.5" height="80.8"/>
+    <text x="820px" y="416px" class="pigmi" fill="white"  id=T87 ></text>
+    <text x="820px" y="428px" class="pigmi" fill="white"  id=T88 ></text>
+
+    <rect x="954.8" y="398" width="66.9" id=S45 height="81"/>
+    <text x="956" y="416px" class="pigmi" fill="white"  id=T89 ></text>
+    <text x="956" y="428px" class="pigmi" fill="white"  id=T90 ></text>
+
+    <rect x="1021.7" y="397.6" class="st20" id=S46 width="66.3" height="81.4"/>
+    <text x="1022px" y="416px" class="pigmi" fill="white"  id=T91 ></text>
+    <text x="1022px" y="428px" class="pigmi" fill="white"  id=T92 ></text>
+
+    <rect x="1088" y="398.1" class="st0" id=S47 width="66" height="81.9"/>
+    <text x="1090px" y="416px" class="pigmi" fill="white"  id=T93 ></text>
+    <text x="1090px" y="428px" class="micro" fill="white"  id=T94 ></text>
+
+    <rect x="1154.2" y="398" class="st5" id=S48 width="65.4" height="83"/>
+    <text x="1156px" y="416px" fill="black" class="pigmi"  id=T95 ></text>
+    <text x="1156px" y="428px" fill="black" class="micro"  id=T96 ></text>
+
+    <rect x="1220.1" y="397.5" class="st7" id=S49 width="65.1" height="81.5"/>
+    <text x="1222px" y="416px" class="pigmi" fill="white"  id=T97 ></text>
+    <text x="1222px" y="428px" class="micro" fill="white"  id=T98 ></text>
+
+    <rect x="1285.7" y="397.3" width="80.3" id=S50 height="80.7"/>
+    <text x="1287px" y="416px" class="pigmi" fill="white"  id=T99 ></text>
+    <text x="1287px" y="428px" class="pigmi" fill="white"  id=T100 ></text>
+
     <rect x="439.5" y="478.5" class="st25" width="926" height="288"/>
-    <rect x="460" y="494" class="st22" width="884" height="233"/>
     <text transform="matrix(1 0 0 1 460 539.5996)"><tspan x="0" y="0" class="st23 st24">Power Usage  </tspan><tspan x="0" y="72" class="st23 st24">by Countries  </tspan><tspan x="0" y="144" class="st23 st24">Around the World.</tspan></text>
 
   </svg>
@@ -119,10 +270,157 @@
   <script>
   var Data = [
     "CHINA","KW-6,310,000,000,000",
+    "UNITED STATES","KW-3,911,000,000,000",
+    "INDIA","KW-1,408,624,400,000",
+    "RUSSIA","KW-1,065,000,000,000",
+    "JAPAN","KW-934,000,000,000",
+    "GERMANY","KW-533,000,000,000",
+    "CANADA","KW-528,000,000,000",
+    "BRAZIL","KW-518,000,000,000",
+    "KOREA, SOUTH","KW-495,000,000,000",
+    "FRANCE","KW-431,000,000,000",
+    "UNITED KINGDOM","KW-309,000,000,000",
+    "ITALY","KW-291,000,000,000",
+    "SAUDI ARABIA","KW-272,000,000,000",
+    "TAIWAN","KW-249,500,000,000",
+    "MEXICO","KW-238,000,000,000",
+    "SPAIN","KW-234,000,000,000",
+    "AUSTRALIA","KW-224,000,000,000",
+    "IRAN","KW-218,000,000,000",
+    "SOUTH AFRICA","KW-212,000,000,000",
+    "TURKEY","KW-207,000,000,000",
+    "INDONESIA","KW-195,000,000,000",
+    "THAILAND","KW-164,000,000,000",
+    "EGYPT","KW-143,000,000,000",
+    "UKRAINE","KW-143,000,000,000",
+    "POLAND","KW-142,000,000,000",
+    "MALAYSIA","KW-131,000,000,000",
+    "SWEDEN","KW-127,000,000,000",
+    "NORWAY","KW-126,400,000,000",
+    "VIETNAM","KW-125,000,000,000",
+    "ARGENTINA","KW-116,000,000,000",
+    "NETHERLANDS","KW-108,000,000,000",
+    "UNITED ARAB EMIRATES","KW-96,000,000,000",
+    "PHILIPPINES","KW-94,370,000,000",
+    "KAZAKHSTAN","KW-91,000,000,000",
+    "PALISTAN","KW-82,000,000,000",
+    "FINLAND","KW-81,000,000,000",
+    "BELGIUM","KW-81,000,000,000",
+    "VENEZUELA","KW-78,000,000,000",
+    "AUSTRIA","KW-69,750,000,000",
+    "CHILE","KW-66,000,000,000",
+    "CZECH REPUBLIC","KW-60,000,000,000",
+    "COLOMBIA","KW-60,000,000,000",
+    "ISREAL","KW-59,830,000,000",
+    "SWITZERLAND","KW-58,000,000,000",
+    "BANGLADESH","KW-55,500,000,000",
+    "KUWAIT","KW-54,000,000,000",
+    "GREECE","KW-53,000,000,000",
+    "ALGERIA","KW-49,000,000,000",
+    "ROMANIA","KW-48,000,000,000",
+    "UZBEKISTAN","KW-48,000,000,000"
   ];
 
   var t1 = document.getElementById('T1');
   var t2 = document.getElementById('T2');
+  var t3 = document.getElementById('T3');
+  var t4 = document.getElementById('T4');
+  var t5 = document.getElementById('T5');
+  var t6 = document.getElementById('T6');
+  var t7 = document.getElementById('T7');
+  var t8 = document.getElementById('T8');
+  var t9 = document.getElementById('T9');
+  var t10 = document.getElementById('T10');
+  var t11 = document.getElementById('T11');
+  var t12 = document.getElementById('T12');
+  var t13 = document.getElementById('T13');
+  var t14 = document.getElementById('T14');
+  var t15 = document.getElementById('T15');
+  var t16 = document.getElementById('T16');
+  var t17 = document.getElementById('T17');
+  var t18 = document.getElementById('T18');
+  var t19 = document.getElementById('T19');
+  var t20 = document.getElementById('T20');
+  var t21 = document.getElementById('T21');
+  var t22 = document.getElementById('T22');
+  var t23 = document.getElementById('T23');
+  var t24 = document.getElementById('T24');
+  var t25 = document.getElementById('T25');
+  var t26 = document.getElementById('T26');
+  var t27 = document.getElementById('T27');
+  var t28 = document.getElementById('T28');
+  var t29 = document.getElementById('T29');
+  var t30 = document.getElementById('T30');
+  var t31 = document.getElementById('T31');
+  var t32 = document.getElementById('T32');
+  var t33 = document.getElementById('T33');
+  var t34 = document.getElementById('T34');
+  var t35 = document.getElementById('T35');
+  var t36 = document.getElementById('T36');
+  var t37 = document.getElementById('T37');
+  var t38 = document.getElementById('T38');
+  var t39 = document.getElementById('T39');
+  var t40 = document.getElementById('T40');
+  var t41 = document.getElementById('T41');
+  var t42 = document.getElementById('T42');
+  var t43 = document.getElementById('T43');
+  var t44 = document.getElementById('T44');
+  var t45 = document.getElementById('T45');
+  var t46 = document.getElementById('T46');
+  var t47 = document.getElementById('T47');
+  var t48 = document.getElementById('T48');
+  var t49 = document.getElementById('T49');
+  var t50 = document.getElementById('T50');
+  var t51 = document.getElementById('T51');
+  var t52 = document.getElementById('T52');
+  var t53 = document.getElementById('T53');
+  var t54 = document.getElementById('T54');
+  var t55 = document.getElementById('T55');
+  var t56 = document.getElementById('T56');
+  var t57 = document.getElementById('T57');
+  var t58 = document.getElementById('T58');
+  var t59 = document.getElementById('T59');
+  var t60 = document.getElementById('T60');
+  var t61 = document.getElementById('T61');
+  var t62 = document.getElementById('T62');
+  var t63 = document.getElementById('T63');
+  var t64 = document.getElementById('T64');
+  var t65 = document.getElementById('T65');
+  var t66 = document.getElementById('T66');
+  var t67 = document.getElementById('T67');
+  var t68 = document.getElementById('T68');
+  var t69 = document.getElementById('T69');
+  var t70 = document.getElementById('T70');
+  var t71 = document.getElementById('T71');
+  var t72 = document.getElementById('T72');
+  var t73 = document.getElementById('T73');
+  var t74 = document.getElementById('T74');
+  var t75 = document.getElementById('T75');
+  var t76 = document.getElementById('T76');
+  var t77 = document.getElementById('T77');
+  var t78 = document.getElementById('T78');
+  var t79 = document.getElementById('T79');
+  var t80 = document.getElementById('T80');
+  var t81 = document.getElementById('T81');
+  var t82 = document.getElementById('T82');
+  var t83 = document.getElementById('T83');
+  var t84 = document.getElementById('T84');
+  var t85 = document.getElementById('T85');
+  var t86 = document.getElementById('T86');
+  var t87 = document.getElementById('T87');
+  var t88 = document.getElementById('T88');
+  var t89 = document.getElementById('T89');
+  var t90 = document.getElementById('T90');
+  var t91 = document.getElementById('T91');
+  var t92 = document.getElementById('T92');
+  var t93 = document.getElementById('T93');
+  var t94 = document.getElementById('T94');
+  var t95 = document.getElementById('T95');
+  var t96 = document.getElementById('T96');
+  var t97 = document.getElementById('T97');
+  var t98 = document.getElementById('T98');
+  var t99 = document.getElementById('T99');
+  var t100 = document.getElementById('T100');
 
   document.getElementById('S1').addEventListener('mouseover', function VChina(){
     t1.textContent=Data[0]
@@ -130,12 +428,554 @@
     t1.setAttribute('visibility','visable');
     t2.setAttribute('visibility','visable');
   });
-
   document.getElementById('S1').addEventListener('mouseout', function NVChina(){
     t1.setAttribute('visibility','hidden');
     t2.setAttribute('visibility','hidden');
+  });
 
+  document.getElementById('S2').addEventListener('mouseover', function VunnitedStates(){
+    t3.textContent=Data[2]
+    t4.textContent=Data[3]
+    t3.setAttribute('visibility','visable');
+    t4.setAttribute('visibility','visable');
+  });
+  document.getElementById('S2').addEventListener('mouseout', function NVunnitedStates(){
+    t3.setAttribute('visibility','hidden');
+    t4.setAttribute('visibility','hidden');
+  });
 
+  document.getElementById('S3').addEventListener('mouseover', function Vindia(){
+    t5.textContent=Data[4]
+    t6.textContent=Data[5]
+    t5.setAttribute('visibility','visable');
+    t6.setAttribute('visibility','visable');
+  });
+  document.getElementById('S3').addEventListener('mouseout', function NVindia(){
+    t5.setAttribute('visibility','hidden');
+    t6.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S4').addEventListener('mouseover', function Vrussia(){
+    t7.textContent=Data[6]
+    t8.textContent=Data[7]
+    t7.setAttribute('visibility','visable');
+    t8.setAttribute('visibility','visable');
+    t7.setAttribute('fill','black');
+    t8.setAttribute('fill','black');
+  });
+  document.getElementById('S4').addEventListener('mouseout', function NVrussia(){
+    t7.setAttribute('visibility','hidden');
+    t8.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S5').addEventListener('mouseover', function Vjapan(){
+    t9.textContent=Data[8]
+    t10.textContent=Data[9]
+    t9.setAttribute('visibility','visable');
+    t10.setAttribute('visibility','visable');
+  });
+  document.getElementById('S5').addEventListener('mouseout', function NVjapan(){
+    t9.setAttribute('visibility','hidden');
+    t10.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S6').addEventListener('mouseover', function Vgermany(){
+    t11.textContent=Data[10]
+    t12.textContent=Data[11]
+    t11.setAttribute('visibility','visable');
+    t12.setAttribute('visibility','visable');
+  });
+  document.getElementById('S6').addEventListener('mouseout', function NVgermany(){
+    t11.setAttribute('visibility','hidden');
+    t12.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S7').addEventListener('mouseover', function Vcanada(){
+    t13.textContent=Data[12]
+    t14.textContent=Data[13]
+    t13.setAttribute('visibility','visable');
+    t14.setAttribute('visibility','visable');
+  });
+  document.getElementById('S7').addEventListener('mouseout', function NVcanada(){
+    t13.setAttribute('visibility','hidden');
+    t14.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S8').addEventListener('mouseover', function Vbrazil(){
+    t15.textContent=Data[14]
+    t16.textContent=Data[15]
+    t15.setAttribute('visibility','visable');
+    t16.setAttribute('visibility','visable');
+  });
+  document.getElementById('S8').addEventListener('mouseout', function NVbrazil(){
+    t15.setAttribute('visibility','hidden');
+    t16.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S9').addEventListener('mouseover', function VSkorea(){
+    t17.textContent=Data[16]
+    t18.textContent=Data[17]
+    t17.setAttribute('visibility','visable');
+    t18.setAttribute('visibility','visable');
+  });
+  document.getElementById('S9').addEventListener('mouseout', function NVSkorea(){
+    t17.setAttribute('visibility','hidden');
+    t18.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S10').addEventListener('mouseover', function Vfrance(){
+    t19.textContent=Data[18]
+    t20.textContent=Data[19]
+    t19.setAttribute('visibility','visable');
+    t20.setAttribute('visibility','visable');
+    t19.setAttribute('fill','black');
+    t20.setAttribute('fill','black');
+  });
+  document.getElementById('S10').addEventListener('mouseout', function NVfrance(){
+    t19.setAttribute('visibility','hidden');
+    t20.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S11').addEventListener('mouseover', function VUnitedKingdom(){
+    t21.textContent=Data[20]
+    t22.textContent=Data[21]
+    t21.setAttribute('visibility','visable');
+    t22.setAttribute('visibility','visable');
+  });
+  document.getElementById('S11').addEventListener('mouseout', function NVUnitedKingdom(){
+    t21.setAttribute('visibility','hidden');
+    t22.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S12').addEventListener('mouseover', function Vitaly(){
+    t23.textContent=Data[22]
+    t24.textContent=Data[23]
+    t23.setAttribute('visibility','visable');
+    t24.setAttribute('visibility','visable');
+  });
+  document.getElementById('S12').addEventListener('mouseout', function NVitaly(){
+    t23.setAttribute('visibility','hidden');
+    t24.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S13').addEventListener('mouseover', function VsaudiArabia(){
+    t25.textContent=Data[24]
+    t26.textContent=Data[25]
+    t25.setAttribute('visibility','visable');
+    t26.setAttribute('visibility','visable');
+  });
+  document.getElementById('S13').addEventListener('mouseout', function NVsaudiArabia(){
+    t25.setAttribute('visibility','hidden');
+    t26.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S14').addEventListener('mouseover', function VTaiwan(){
+    t27.textContent=Data[26]
+    t28.textContent=Data[27]
+    t27.setAttribute('visibility','visable');
+    t28.setAttribute('visibility','visable');
+  });
+  document.getElementById('S14').addEventListener('mouseout', function NVTaiwan(){
+    t27.setAttribute('visibility','hidden');
+    t28.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S15').addEventListener('mouseover', function VMexico(){
+    t29.textContent=Data[28]
+    t30.textContent=Data[29]
+    t29.setAttribute('visibility','visable');
+    t30.setAttribute('visibility','visable');
+  });
+  document.getElementById('S15').addEventListener('mouseout', function NVMexico(){
+    t29.setAttribute('visibility','hidden');
+    t30.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S16').addEventListener('mouseover', function Vspain(){
+    t31.textContent=Data[30]
+    t32.textContent=Data[31]
+    t31.setAttribute('visibility','visable');
+    t32.setAttribute('visibility','visable');
+  });
+  document.getElementById('S16').addEventListener('mouseout', function NVspain(){
+    t31.setAttribute('visibility','hidden');
+    t32.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S17').addEventListener('mouseover', function VAusralia(){
+    t33.textContent=Data[32]
+    t34.textContent=Data[33]
+    t33.setAttribute('visibility','visable');
+    t34.setAttribute('visibility','visable');
+  });
+  document.getElementById('S17').addEventListener('mouseout', function NVAusralia(){
+    t33.setAttribute('visibility','hidden');
+    t34.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S18').addEventListener('mouseover', function Viran(){
+    t35.textContent=Data[34]
+    t36.textContent=Data[35]
+    t35.setAttribute('visibility','visable');
+    t36.setAttribute('visibility','visable');
+  });
+  document.getElementById('S18').addEventListener('mouseout', function NViran(){
+    t35.setAttribute('visibility','hidden');
+    t36.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S19').addEventListener('mouseover', function VSafrica(){
+    t37.textContent=Data[36]
+    t38.textContent=Data[37]
+    t37.setAttribute('visibility','visable');
+    t38.setAttribute('visibility','visable');
+  });
+  document.getElementById('S19').addEventListener('mouseout', function NVSafrica(){
+    t37.setAttribute('visibility','hidden');
+    t38.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S20').addEventListener('mouseover', function VTurkey(){
+    t39.textContent=Data[38]
+    t40.textContent=Data[39]
+    t39.setAttribute('visibility','visable');
+    t40.setAttribute('visibility','visable');
+    t39.setAttribute('fill','black');
+    t40.setAttribute('fill','black');
+  });
+  document.getElementById('S20').addEventListener('mouseout', function NVTurkey(){
+    t39.setAttribute('visibility','hidden');
+    t40.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S21').addEventListener('mouseover', function Vindonesia(){
+    t41.textContent=Data[40]
+    t42.textContent=Data[41]
+    t41.setAttribute('visibility','visable');
+    t42.setAttribute('visibility','visable');
+  });
+  document.getElementById('S21').addEventListener('mouseout', function NVindonesia(){
+    t41.setAttribute('visibility','hidden');
+    t42.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S22').addEventListener('mouseover', function Vthailand(){
+    t43.textContent=Data[42]
+    t44.textContent=Data[43]
+    t43.setAttribute('visibility','visable');
+    t44.setAttribute('visibility','visable');
+  });
+  document.getElementById('S22').addEventListener('mouseout', function NVthailand(){
+    t43.setAttribute('visibility','hidden');
+    t44.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S23').addEventListener('mouseover', function Vegypt(){
+    t45.textContent=Data[44]
+    t46.textContent=Data[45]
+    t45.setAttribute('visibility','visable');
+    t46.setAttribute('visibility','visable');
+  });
+  document.getElementById('S23').addEventListener('mouseout', function NVegypt(){
+    t45.setAttribute('visibility','hidden');
+    t46.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S24').addEventListener('mouseover', function Vukraine(){
+    t47.textContent=Data[46]
+    t48.textContent=Data[47]
+    t47.setAttribute('visibility','visable');
+    t48.setAttribute('visibility','visable');
+  });
+  document.getElementById('S24').addEventListener('mouseout', function NVukraine(){
+    t47.setAttribute('visibility','hidden');
+    t48.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S25').addEventListener('mouseover', function Vpoland(){
+    t49.textContent=Data[48]
+    t50.textContent=Data[49]
+    t49.setAttribute('visibility','visable');
+    t50.setAttribute('visibility','visable');
+  });
+  document.getElementById('S25').addEventListener('mouseout', function NVpoland(){
+    t49.setAttribute('visibility','hidden');
+    t50.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S26').addEventListener('mouseover', function Vmalaysia(){
+    t51.textContent=Data[50]
+    t52.textContent=Data[51]
+    t51.setAttribute('visibility','visable');
+    t52.setAttribute('visibility','visable');
+  });
+  document.getElementById('S26').addEventListener('mouseout', function NVmalaysia(){
+    t51.setAttribute('visibility','hidden');
+    t52.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S27').addEventListener('mouseover', function Vsweden(){
+    t53.textContent=Data[52]
+    t54.textContent=Data[53]
+    t53.setAttribute('visibility','visable');
+    t54.setAttribute('visibility','visable');
+  });
+  document.getElementById('S27').addEventListener('mouseout', function NVsweden(){
+    t53.setAttribute('visibility','hidden');
+    t54.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S28').addEventListener('mouseover', function Vnorway(){
+    t55.textContent=Data[54]
+    t56.textContent=Data[55]
+    t55.setAttribute('visibility','visable');
+    t56.setAttribute('visibility','visable');
+  });
+  document.getElementById('S28').addEventListener('mouseout', function NVnorway(){
+    t55.setAttribute('visibility','hidden');
+    t56.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S29').addEventListener('mouseover', function Vvietnam(){
+    t57.textContent=Data[56]
+    t58.textContent=Data[57]
+    t57.setAttribute('visibility','visable');
+    t58.setAttribute('visibility','visable');
+  });
+  document.getElementById('S29').addEventListener('mouseout', function NVvietnam(){
+    t57.setAttribute('visibility','hidden');
+    t58.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S30').addEventListener('mouseover', function Vargentina(){
+    t59.textContent=Data[58]
+    t60.textContent=Data[59]
+    t59.setAttribute('visibility','visable');
+    t60.setAttribute('visibility','visable');
+  });
+  document.getElementById('S30').addEventListener('mouseout', function NVargentina(){
+    t59.setAttribute('visibility','hidden');
+    t60.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S31').addEventListener('mouseover', function Vnetherlands(){
+    t61.textContent=Data[60]
+    t62.textContent=Data[61]
+    t61.setAttribute('visibility','visable');
+    t62.setAttribute('visibility','visable');
+  });
+  document.getElementById('S31').addEventListener('mouseout', function NVnetherlands(){
+    t61.setAttribute('visibility','hidden');
+    t62.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S32').addEventListener('mouseover', function VUArabEmirates(){
+    t63.textContent=Data[62]
+    t64.textContent=Data[63]
+    t63.setAttribute('visibility','visable');
+    t64.setAttribute('visibility','visable');
+  });
+  document.getElementById('S32').addEventListener('mouseout', function NVUArabEmirates(){
+    t63.setAttribute('visibility','hidden');
+    t64.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S33').addEventListener('mouseover', function Vphilippines(){
+    t65.textContent=Data[64]
+    t66.textContent=Data[65]
+    t65.setAttribute('visibility','visable');
+    t66.setAttribute('visibility','visable');
+  });
+  document.getElementById('S33').addEventListener('mouseout', function NVphilippines(){
+    t65.setAttribute('visibility','hidden');
+    t66.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S34').addEventListener('mouseover', function Vkazakhstan(){
+    t67.textContent=Data[66]
+    t68.textContent=Data[67]
+    t67.setAttribute('visibility','visable');
+    t68.setAttribute('visibility','visable');
+  });
+  document.getElementById('S34').addEventListener('mouseout', function NVkazakhstan(){
+    t67.setAttribute('visibility','hidden');
+    t68.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S35').addEventListener('mouseover', function Vpakistan(){
+    t69.textContent=Data[68]
+    t70.textContent=Data[69]
+    t69.setAttribute('visibility','visable');
+    t70.setAttribute('visibility','visable');
+  });
+  document.getElementById('S35').addEventListener('mouseout', function NVpakistan(){
+    t69.setAttribute('visibility','hidden');
+    t70.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S36').addEventListener('mouseover', function Vfinland(){
+    t71.textContent=Data[70]
+    t72.textContent=Data[71]
+    t71.setAttribute('visibility','visable');
+    t72.setAttribute('visibility','visable');
+  });
+  document.getElementById('S36').addEventListener('mouseout', function NVfinland(){
+    t71.setAttribute('visibility','hidden');
+    t72.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S37').addEventListener('mouseover', function Vbelgium(){
+    t73.textContent=Data[72]
+    t74.textContent=Data[73]
+    t73.setAttribute('visibility','visable');
+    t74.setAttribute('visibility','visable');
+  });
+  document.getElementById('S37').addEventListener('mouseout', function NVbelgium(){
+    t73.setAttribute('visibility','hidden');
+    t74.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S38').addEventListener('mouseover', function Vvenezuela(){
+    t75.textContent=Data[74]
+    t76.textContent=Data[75]
+    t75.setAttribute('visibility','visable');
+    t76.setAttribute('visibility','visable');
+  });
+  document.getElementById('S38').addEventListener('mouseout', function NVvenezuela(){
+    t75.setAttribute('visibility','hidden');
+    t76.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S39').addEventListener('mouseover', function Vaustria(){
+    t77.textContent=Data[76]
+    t78.textContent=Data[77]
+    t77.setAttribute('visibility','visable');
+    t78.setAttribute('visibility','visable');
+  });
+  document.getElementById('S39').addEventListener('mouseout', function NVaustria(){
+    t77.setAttribute('visibility','hidden');
+    t78.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S40').addEventListener('mouseover', function Vchile(){
+    t79.textContent=Data[78]
+    t80.textContent=Data[79]
+    t79.setAttribute('visibility','visable');
+    t80.setAttribute('visibility','visable');
+  });
+  document.getElementById('S40').addEventListener('mouseout', function NVchile(){
+    t79.setAttribute('visibility','hidden');
+    t80.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S41').addEventListener('mouseover', function VCzechR(){
+    t81.textContent=Data[80]
+    t82.textContent=Data[81]
+    t81.setAttribute('visibility','visable');
+    t82.setAttribute('visibility','visable');
+  });
+  document.getElementById('S41').addEventListener('mouseout', function NVCzechR(){
+    t81.setAttribute('visibility','hidden');
+    t82.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S42').addEventListener('mouseover', function Vcolombia(){
+    t83.textContent=Data[82]
+    t84.textContent=Data[83]
+    t83.setAttribute('visibility','visable');
+    t84.setAttribute('visibility','visable');
+  });
+  document.getElementById('S42').addEventListener('mouseout', function NVcolombia(){
+    t83.setAttribute('visibility','hidden');
+    t84.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S43').addEventListener('mouseover', function Visrael(){
+    t85.textContent=Data[84]
+    t86.textContent=Data[85]
+    t85.setAttribute('visibility','visable');
+    t86.setAttribute('visibility','visable');
+  });
+  document.getElementById('S43').addEventListener('mouseout', function NVisrael(){
+    t85.setAttribute('visibility','hidden');
+    t86.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S44').addEventListener('mouseover', function Vswitzeland(){
+    t87.textContent=Data[86]
+    t88.textContent=Data[87]
+    t87.setAttribute('visibility','visable');
+    t88.setAttribute('visibility','visable');
+  });
+  document.getElementById('S44').addEventListener('mouseout', function NVswitzeland(){
+    t87.setAttribute('visibility','hidden');
+    t88.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S45').addEventListener('mouseover', function Vbangladesh(){
+    t89.textContent=Data[88]
+    t90.textContent=Data[89]
+    t89.setAttribute('visibility','visable');
+    t90.setAttribute('visibility','visable');
+  });
+  document.getElementById('S45').addEventListener('mouseout', function NVbangladesh(){
+    t89.setAttribute('visibility','hidden');
+    t90.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S46').addEventListener('mouseover', function Vkuwait(){
+    t91.textContent=Data[90]
+    t92.textContent=Data[91]
+    t91.setAttribute('visibility','visable');
+    t92.setAttribute('visibility','visable');
+  });
+  document.getElementById('S46').addEventListener('mouseout', function NVkuwait(){
+    t91.setAttribute('visibility','hidden');
+    t92.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S47').addEventListener('mouseover', function Vgreece(){
+    t93.textContent=Data[92]
+    t94.textContent=Data[93]
+    t93.setAttribute('visibility','visable');
+    t94.setAttribute('visibility','visable');
+  });
+  document.getElementById('S47').addEventListener('mouseout', function NVgreece(){
+    t93.setAttribute('visibility','hidden');
+    t94.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S48').addEventListener('mouseover', function Valgeria(){
+    t95.textContent=Data[94]
+    t96.textContent=Data[95]
+    t95.setAttribute('visibility','visable');
+    t96.setAttribute('visibility','visable');
+  });
+  document.getElementById('S48').addEventListener('mouseout', function NValgeria(){
+    t95.setAttribute('visibility','hidden');
+    t96.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S49').addEventListener('mouseover', function VRomania(){
+    t97.textContent=Data[96]
+    t98.textContent=Data[97]
+    t97.setAttribute('visibility','visable');
+    t98.setAttribute('visibility','visable');
+  });
+  document.getElementById('S49').addEventListener('mouseout', function NVRomania(){
+    t97.setAttribute('visibility','hidden');
+    t98.setAttribute('visibility','hidden');
+  });
+
+  document.getElementById('S50').addEventListener('mouseover', function Vuzbekistan(){
+    t99.textContent=Data[98]
+    t100.textContent=Data[99]
+    t99.setAttribute('visibility','visable');
+    t100.setAttribute('visibility','visable');
+  });
+  document.getElementById('S50').addEventListener('mouseout', function NVuzbekistan(){
+    t99.setAttribute('visibility','hidden');
+    t100.setAttribute('visibility','hidden');
   });
 
   </script>
